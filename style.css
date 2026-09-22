@@ -1,0 +1,47 @@
+/* GLOBAL APP FONT */
+html, body, [class*="css"] {
+    font-family: 'Inter', sans-serif;
+}
+
+/* SIDEBAR BACKGROUND */
+section[data-testid="stSidebar"] {
+    background-color: #f8f9fa;
+}
+
+/* SIDEBAR TITLES */
+section[data-testid="stSidebar"] h1, 
+section[data-testid="stSidebar"] h2 {
+    color: #2B7A78;
+}
+
+/* INPUT BOXES */
+input, textarea {
+    border-radius: 8px !important;
+}
+
+/* EXPANDER HEADER */
+.streamlit-expanderHeader {
+    font-weight: 600;
+    color: #2B7A78;
+}
+
+/* METRIC CARDS */
+div[data-testid="metric-container"] {
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 12px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+/* TABLES */
+table {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* BUTTONS */
+button[kind="primary"] {
+    background-color: #2B7A78 !important;
+    color: white !important;
+    border-radius: 8px !important;
+}
